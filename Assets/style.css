@@ -1,0 +1,53 @@
+body {
+    background-color: #92A8D1;
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    padding: 50px;
+    margin: 100px 200px;
+}
+h1 {
+    font-size: 24px;
+    color: white;
+}
+.paragraph, .first, .second {
+    padding: 20px;
+    
+    border: 2px solid lightgray;
+}
+
+.start-btn {
+    background-color: rgb(131, 114, 158);
+    border: 1px solid, #333;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+
+}
+.start-btn:hover {
+    cursor: pointer;
+    margin: -3px;
+    background-color: #92A8D1;
+}
+.first-a, .first-b, .first-c, .first-d,
+.second-a, .second-b, .second-c, .second-d,
+.third-a, .third-b, .third-c, .third-d,
+.fourth-a, .fourth-b, .fourth-c, .fourth-d
+ {
+    cursor: pointer;
+    background-color: rgb(131, 114, 158);
+    margin: 15px;
+    padding: 5px;
+    font-size: 14px;
+  
+}
+.first-a:hover, .first-b:hover, .first-c:hover, .first-d:hover, 
+.second-a:hover, .second-b:hover, .second-c:hover, .second-d:hover,
+.third-a:hover, .third-b:hover, .third-c:hover, .third-d:hover,
+.fourth-a:hover, .fourth-b:hover, .fourth-c:hover, .fourth-d:hover
+{
+    margin-right: 3px;
+    background-color: rgb(152, 134, 182);
+    padding: 7px;
+}
