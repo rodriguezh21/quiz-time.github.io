@@ -1,5 +1,5 @@
 body {
-    background-color: #92A8D1;
+    background-color: rgb(53, 73, 57);
     color: white;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -11,10 +11,18 @@ h1 {
     font-size: 24px;
     color: white;
 }
-.paragraph, .first, .second {
+.intro, .first, .second {
     padding: 20px;
     
     border: 2px solid lightgray;
+}
+#correct-answer {
+    font-size: 20px;
+    color: rgb(18, 201, 18);
+}
+#wrong-answer {
+    font-size: 20px;
+    color: rgb(236, 59, 59);
 }
 
 .start-btn {
@@ -50,4 +58,16 @@ h1 {
     margin-right: 3px;
     background-color: rgb(152, 134, 182);
     padding: 7px;
+}
+#input {
+    font-size: 20px;
+}
+#text {
+    font-size: 16px;
+}
+#submit-btn {
+    font-size: 16px;
+    font-weight: bold;
+    background-color: red;
+    color: white;
 }
