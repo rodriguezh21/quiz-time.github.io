@@ -12,25 +12,29 @@
   </head>
   <body>
     <div>
+        
         <h1 
         id="h1">Coding Challenge Activity
-        </h1><br><hr><br>
+        </h1><hr><br><br>
     </div>
-    <div class="paragraph">
-        <p>Put yout skills to the test with this Coding Quiz. You have 60 seconds to complete the quiz but keep in mind that incorrect answers will penalize your score time by 10 seconds. Good Luck!</p><br>
+    <div class="intro">
+        <p>Put your skills to the test with this Coding Quiz. You have 60 seconds to complete the quiz but keep in mind that incorrect answers will penalize your score time by 10 seconds. Good Luck!</p><br>
         <div>
           <button class="start-btn">Click to Start</button>
             
         </div>
     </div>
+    <div id="correct-answer">Correct!</div>
+    <div id="wrong-answer">Wrong, try again!</div><br>
     <div class="first">What does DOM stand for?
-        <ul class="answers">
+        <ul class="answer-container">
             <li class="first-a">Developer Organization Department</li>
             <li class="first-b">Driver Operation Manual</li>
             <li class="first-c">Document Object Model</li>
             <li class="first-d">Dynanic Operating Module</li>
         </ul>
     </div> 
+    
     <div class="second">Which of the following is TRUE about an Array?
         <ul>
             <li class="second-a">Arrays a type of variable that are collections</li>
@@ -56,6 +60,23 @@
             <li class="fourth-d">var obj = JSON.parse(text);</li>
         </ul>
     </div>
+    <br>
+    <div id="timer">
+
+    </div>
+    <div id="input">Enter your initials
+        <input type="text" id="text">
+        <button id="submit-btn">Submit</button>
+    </div>
+    <div id="highscore">Highscores
+        <ol id="user-input"></ol>
+        <form>
+            <div class="form">
+            <label for="textarea"></label>
+            <textarea class="form-control" id="textarea" rows="3" value="" readonly></textarea>
+          </div>
+        </form>
+    </div>
     
     
       
@@ -73,6 +94,7 @@
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="./Assets/script.js"></script>
   </body>
 </html>
