@@ -62,7 +62,7 @@ h1 {
 #input {
     font-size: 20px;
 }
-#text {
+#myText {
     font-size: 16px;
 }
 #submit-btn {
@@ -70,4 +70,24 @@ h1 {
     font-weight: bold;
     background-color: red;
     color: white;
+}
+#user-input {
+    background-color: lightslategray;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+.play-again-btn {
+   
+    background-color: rgb(131, 114, 158);
+    border: 1px solid, #333;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    
+    }
+.play-again-btn:hover {
+    cursor: pointer;
+    margin: -3px;
+    background-color: #92A8D1;
 }
